@@ -1,0 +1,6 @@
+source_point = str(input("enter the source : "))
+destination_point = str(input("enter the destination : "))
+fare = int(input("enter the fare amount: "))
+discount = float(input("enter the discount : "))
+rate = (fare - (fare*discount))
+print("{} to {} fare is {} Rs each with discount {}%".format(source_point,destination_point,rate,discount))
